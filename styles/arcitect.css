@@ -85,6 +85,9 @@ main{
 
 }
 /* teams-styles */
+.teams-content{
+  max-width: 2220px;
+}
 .teams-container{
   display: flex;
   align-items: center;
@@ -196,10 +199,17 @@ main{
     color:#fff;
     width: 342px;
     padding: 40px;
+    position: relative;
+    bottom: 100px;
   }
   .ten-years-badge h2{
     font-size: 4rem;
+    margin-top: 0;
 
+  }
+  .ten-years-badge p{
+    font-size: 1.5rem;
+    text-align: center;
   }
   .facts-card-container.card-title{
     color: #ff900E;
@@ -244,6 +254,15 @@ font-weight: 700;
   font: 16px;
 }
 
+/* footer section stats here */
+/* Footer Section */
+.footer-section {
+  margin-top: 60px;
+  
+  background-color: #666666;
+  padding: 1.5rem 0;
+  text-align: center;
+}
 
 
 
